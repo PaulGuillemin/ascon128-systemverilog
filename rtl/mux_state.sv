@@ -1,12 +1,3 @@
-//                              -*- Mode: Verilog -*-
-// Filename        : mux_state.sv
-// Description     : package definition
-// Author          : Jean-Baptiste RIGAUD
-// Created On      : Sat Oct 14 15:30:30 2023
-// Last Modified By: Jean-Baptiste RIGAUD
-// Last Modified On: Sat Oct 14 15:30:30 2023
-// Update Count    : 0
-// Status          : Unknown, Use with caution!
 `timescale 1 ns / 1 ps
 
 module mux_state

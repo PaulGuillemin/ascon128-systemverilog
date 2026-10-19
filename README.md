@@ -59,6 +59,6 @@ There is no decryption interface, tag-verification path, automatic padding or le
 
 ## Portfolio provenance
 
-This repository preserves an existing academic project. The original files were kept unchanged; the new documentation, diagram and automated verification were added on 19 October 2026. Git commits record the actual import and maintenance dates.
+This repository preserves an existing academic project. The original school files were kept unchanged; the new documentation, diagram and automated verification were added on 19 October 2026. Git commits record the actual import and maintenance dates.
 
-**Paul Guillemin** · Original source headers are preserved. No repository-wide license has been added.
+**Paul Guillemin** · No repository-wide license has been added.

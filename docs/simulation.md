@@ -26,7 +26,7 @@ The tests exercise initialization, associated-data absorption, the transition in
 | --- | --- |
 | RTL compilation | Passed with Icarus Verilog 12.0, SystemVerilog 2012 mode |
 | Selected known-answer tests | 12/12 passed, ciphertext and tag |
-| RTL comparison with the school source | Identical file contents; no functional edits |
+| RTL comparison with the school source | No functional edits; legacy metadata headers removed |
 | Test environment | Ubuntu under Windows Subsystem for Linux |
 | Original testbench | Compiled and ran to completion; preserved as an archive |
 
@@ -34,7 +34,7 @@ The simulation harness and its checks were created during portfolio preparation.
 
 ## Original testbench
 
-`sim/archive/ascon_tb.sv` preserves the original scenario. It drives initialization, associated data and plaintext, then waits for completion. It does not compare ciphertext or tags against expected values and should not be treated as an independent correctness check.
+`sim/archive/ascon_tb.sv` preserves the original scenario, with its legacy metadata header removed. It drives initialization, associated data and plaintext, then waits for completion. It does not compare ciphertext or tags against expected values and should not be treated as an independent correctness check.
 
 With Icarus installed, it can be compiled and run separately:
 
