@@ -1,7 +1,7 @@
 * text=auto
-*.sv text eol=lf
+*.sv text eol=lf linguist-language=SystemVerilog
 *.py text eol=lf
 *.md text eol=lf
 *.svg text eol=lf
-*.f text eol=lf
+*.f text eol=lf linguist-detectable=false
 *.do text eol=lf
