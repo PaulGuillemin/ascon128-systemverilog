@@ -1,0 +1,11 @@
+build/
+work/
+__pycache__/
+*.vcd
+*.wlf
+*.vvp
+*.log
+transcript
+modelsim.ini
+.env
+.env.*

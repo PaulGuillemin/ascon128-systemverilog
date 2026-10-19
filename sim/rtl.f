@@ -1,0 +1,14 @@
+rtl/ascon_pack.sv
+rtl/Sbox.sv
+rtl/Ps.sv
+rtl/Pc.sv
+rtl/Pl.sv
+rtl/compteur_double_init.sv
+rtl/mux_state.sv
+rtl/register_w_en.sv
+rtl/state_register_w_en.sv
+rtl/xor_begin_perm.sv
+rtl/xor_end_perm.sv
+rtl/Permutation.sv
+rtl/fsm_moore.sv
+rtl/ascon.sv
